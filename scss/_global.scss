@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+$basicGreen: #088269;
+$basicBlack: #202020;
+$basicBeige: #F8F7F3;
+$basicWhite: #FFFFFF;
+
+
+//backgraound
+
+$fon: #D5D1E1;
+//btns
+@mixin defBtn{
+    width: 90px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: $basicGreen;
+    color: $basicWhite;
+}
+
+@media screen and (max-width: 800px){
+    .container{
+        width: 100%;
+    }
+}
